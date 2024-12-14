@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Baked Beans",
+            "price": 0.99
+        },
+        {
+            "id": 2,
+            "name": "Biscuits",
+            "price": 1.20
+        },
+        {
+            "id": 3,
+            "name": "Sardines",
+            "price": 1.89
+        },
+        {
+            "id": 4,
+            "name": "Shampoo (Small)",
+            "price": 2
+        },
+        {
+            "id": 5,
+            "name": "Shampoo (Medium)",
+            "price": 2.5
+        },
+        {
+            "id": 6,
+            "name": "Shampoo (Large)",
+            "price": 3.5
+        }
+    ],
+    "offers": [
+        {
+            "productid": 1,
+            "type": "multibuy",
+            "threshold": 3
+        },
+        {
+            "productid": 3,
+            "type": "discount",
+            "value": 25
+        },
+        {
+            "productids": [ 4, 5, 6 ],
+            "type": "cheapest",
+            "threshold": 3
+        },
+        {
+            "productid": 7,
+            "type": "discount",
+            "value": 50
+        }
+    ]
+}
